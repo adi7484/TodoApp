@@ -1,0 +1,41 @@
+/* Style for the form container */
+.todo-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the input field */
+.todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+}
+
+/* Add focus style to the input field */
+.todo-input:focus {
+    border-color: #fc60f4;
+    outline: none;
+}
+
+/* Style for the add button */
+.todo-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2773ff;
+    color: rgb(17, 17, 17);
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style for add button hover effect */
+.todo-button:hover {
+    background-color: #9a98f8;
+}

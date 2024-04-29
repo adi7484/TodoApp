@@ -1,0 +1,45 @@
+/* Container for the To-Do list */
+.todo-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Style for the heading */
+.todo-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Style for the form */
+.todo-form {
+    margin-bottom: 20px;
+}
+
+/* Style for each To-Do item */
+.todo-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for To-Do item buttons */
+.todo-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for To-Do item buttons on hover */
+.todo-item button:hover {
+    background-color: #110c0c;
+}

@@ -1,0 +1,19 @@
+/* Style for the date and time container */
+.datetime-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    
+}
+
+/* Style for the date and time text */
+.datetime-text {
+    font-family: 'Roboto', sans-serif; /* Use a stylish font family */
+    font-size: 1.4rem; /* Set a larger font size */
+    color: #d1d1d1; /* Set text color */
+    font-weight: bold; /* Use bold text */
+    letter-spacing: 1px; /* Add a little spacing between letters */
+}
